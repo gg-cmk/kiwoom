@@ -1,5 +1,6 @@
 from PyQt5.QAxContainer import *
 
+
 class Kiwoom(QAxWidget):
     def __init__(self):
         super().__init__()
@@ -20,11 +21,3 @@ class Kiwoom(QAxWidget):
 
     def signal_login(self):
         self.dynamicCall("CommConnect()")
-
-
-
-
-
-
-
-

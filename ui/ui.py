@@ -2,7 +2,8 @@ import sys
 from PyQt5.QtWidgets import *
 from kiwoom.kiwoom import *
 
-class UI_class():
+
+class UIclass():
     def __init__(self):
         print("ui class입니다")
 
