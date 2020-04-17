@@ -1,6 +1,6 @@
 # kiwoom
 
-== Error msg below ==
+== Error msg below ==   
 Traceback (most recent call last):
   File "C:/Users/jackp/PycharmProjects/kiwoom/__init__.py", line 10, in <module>
     Main()
