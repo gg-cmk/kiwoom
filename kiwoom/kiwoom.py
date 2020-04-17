@@ -11,7 +11,7 @@ class Kiwoom(QAxWidget):
         self.signal_login()
 
     def get_instance(self):
-        self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
+        self.setControl("KFOPENAPI.KFOpenAPICtrl.1")
 
     def event_slot(self):
         self.OnEventConnect.connect(self.login_slot)
@@ -20,4 +20,4 @@ class Kiwoom(QAxWidget):
         print(errCode)
 
     def signal_login(self):
-        self.dynamicCall("CommConnect()")
+        self.dynamicCall("CommConnect(int)", 1)
